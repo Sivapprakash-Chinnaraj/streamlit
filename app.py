@@ -36,7 +36,7 @@ elif page == "One Piece Bounty Tracker":
 
     # Create a mock dataset based on your HTML project
     data = {
-        "Character": ["Luffy", "Zoro", "Sanji", "Robin", "Usopp", "Nami", "Chopper"],
+        "Character": ["Luffy", "Zoro", "Sanji", "Booby Robin", "Usopp", "Booby Nami", "Chopper"],
         "Role": ["Captain", "Swordsman", "Chef", "Archaeologist", "Sniper", "Navigator", "Doctor"],
         "Bounty (Berries)": [3000000000, 1111000000, 1032000000, 930000000, 500000000, 366000000, 1000]
     }
