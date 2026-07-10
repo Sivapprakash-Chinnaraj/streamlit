@@ -2,5 +2,4 @@
 set -e
 
 
-containerID=`sudo docker ps -a | awk -F" " "{print $1}"`
-sudo docker rm $containerID
+echo "Hello"
