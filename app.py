@@ -8,6 +8,7 @@ st.set_page_config(
     page_icon="⚡",
     layout="wide"
 )
+
 # --- HEADER SECTION ---
 st.title("🏴‍☠️ Cloud & Data Science Portfolio Dashboard")
 st.subheader("Deployed Live on AWS EC2 via Ubuntu Linux CLI")
