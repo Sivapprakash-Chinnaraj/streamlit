@@ -4,7 +4,7 @@ os: linux
 # Add this files section so CodeDeploy extracts your scripts/ directory onto the host
 files:
   - source: /
-    destination: /home/ubuntu/summa_streamlit
+    destination: /home/ubuntu/streamlit_app
 
 hooks:
   ApplicationStop:
