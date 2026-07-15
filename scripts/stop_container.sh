@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
 
-
-containerID=`sudo docker ps -a | awk -F" " "{print $1}"`
-sudo docker rm -f $containerID
+echo "Stopping running Streamlit application..."
+docker stop sivapprakash1634_summa_streamlit 2>/dev/null || true
+docker rm sivapprakash1634_summa_streamlit 2>/dev/null || true
