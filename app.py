@@ -6,6 +6,7 @@ st.set_page_config(
     page_icon="🎨",
     layout="wide",
 )
+
 # 2. Inject Custom CSS for Premium Museum Aesthetics
 st.markdown(
     """
